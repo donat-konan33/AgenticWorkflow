@@ -1,6 +1,6 @@
 This is an agentic workflow making.
 
-we’ll build an autonomous research agent workflow. The workflow involves:
+We’ll build an autonomous research agent workflow. The workflow involves:
 We could change target as well as our needs change:
 
 Below the different steps:
@@ -10,7 +10,11 @@ Below the different steps:
 - 4 - Storing the results in a local file.
 
 
-Agents need a core structure to ``perceive, decide and act``
+Agents need a core structure to ``Perceive, Decide and Act``.
+We can think this model as ``Input, Reasoning and Output`` according this
+[article](https://www.datacamp.com/tutorial/openai-o1-api).
+
+Let's break down the different steps of this workflow!
 
 Step 1: Creating the Agent Framework
 
