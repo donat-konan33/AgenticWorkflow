@@ -16,16 +16,17 @@ We can think this model as ``Input, Reasoning and Output`` according this
 
 Let's break down the different steps of this workflow!
 
-Step 1: Creating the Agent Framework
+**Step 1** : Creating the Agent Framework
 
 Basic ``Agent`` Class
 Define a reusable Agent class that all agents will inherit.
 
-Step 2 : Implementing ``Specialized Agents``
+**Step 2** : Implementing ``Specialized Agents``
 
 - Input agent: Accepts the research topic.
 - Retrieval agent: Fetches articles from an API.
 - Summarization agent: Summarizes the content.
 
-Step 3 : ``Store`` summarized data
-Step 4 : Orchestrating the ``Workflow``
+**Step 3** : ``Store`` summarized data
+
+**Step 4** : Orchestrating the ``Workflow``, we define here an MCP (Multi-Component Processing) Server like LangChain
